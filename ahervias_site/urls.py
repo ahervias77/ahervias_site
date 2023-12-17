@@ -19,5 +19,6 @@ from django.urls import include, path
 
 urlpatterns = [
     path('', include('mainsite.urls')),
-    path('admin/', admin.site.urls),
+    # Disabling admin site
+    # path('admin/', admin.site.urls),
 ]
