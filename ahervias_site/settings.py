@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ahervias_site.wsgi.application'
+WSGI_APPLICATION = 'ahervias_site.wsgi.app'
 
 
 # Database
