@@ -1,14 +1,14 @@
 {
     "builds": [
       {
-        "src": "vercel_app/wsgi.py",
+        "src": "ahervias_site/wsgi.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "vercel_app/wsgi.py"
+        "dest": "ahervias_site/wsgi.py"
       }
     ]
   }
