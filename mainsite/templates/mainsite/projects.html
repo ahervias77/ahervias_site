@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Austin Hervias</title>
+        <title>Austin Hervias - Projects</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="{% static 'mainsite/assets/favicon.ico' %}" />
         <!-- Custom Google font-->
@@ -18,7 +18,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{% static 'mainsite/css/styles.css' %}" rel="stylesheet" />
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
@@ -34,31 +34,24 @@
                     </div>
                 </div>
             </nav>
-            <!-- Header-->
-            <header class="py-5">
-                <div class="container px-5 pb-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-xxl-5">
-                            <!-- Header text content-->
-                            <div class="text-center text-xxl-start">
-                                <div class="fs-3 fw-light text-muted">404</div>
-                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Page Not Found</span></h1>
-                            </div>
-                        </div>
+            <!-- Projects Section-->
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
                     </div>
-                </div>
-            </header>
-            <!-- About Section-->
-            <section class="bg-white py-5">
-                <div class="container px-5">
                     <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="text-center my-5">
-                                <p class="lead fw-light mb-4">Go <a href="/">home</a> or try one of these links:</p>
-                                <div class="d-flex justify-content-center fs-2 gap-4">
-                                    <a class="text-gradient" href="https://github.com/ahervias77"><i class="bi bi-github"></i></a>
-                                    <a class="text-gradient" href="https://unsplash.com/@ahervias77"><i class="bi bi-camera"></i></a>
-                                    <a class="text-gradient" href="https://www.linkedin.com/in/austinhervias"><i class="bi bi-linkedin"></i></a>
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">ahervias.dev</h2>
+                                            <p>This site is built with Django and Bootstrap. It is built and deployed via Vercel. Check out the GitHub repo <a href="https://github.com/ahervias77/ahervias_site">here</a>!</p>
+                                        </div>
+                                        <img class="img-fluid" src="{% static 'mainsite/assets/code.jpg' %}" alt="..." />
+                                    </div>
                                 </div>
                             </div>
                         </div>
