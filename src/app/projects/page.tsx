@@ -29,7 +29,7 @@ export default function Projects() {
                 <h2 className="text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-500">Projects</h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-100">ahervias.dev</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                  This site is built with Next.js and Tailwind CSS. It is built and deployed via Vercel. Check out the GitHub repo <a href="https://github.com/ahervias77/ahervias_site_next" className="text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-400">here</a>!
+                  This site is built with Next.js and Tailwind CSS. It is built and deployed via Vercel. Check out the GitHub repo <a href="https://github.com/ahervias77/ahervias_site" className="text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-400">here</a>!
                 </p>
                 <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none dark:text-gray-400">
                   {aherviasFeatures.map((feature) => (
