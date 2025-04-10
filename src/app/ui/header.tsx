@@ -8,6 +8,7 @@ import Image from 'next/image'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Resume', href: '/resume' },
+  { name: 'Racing', href: '/racing' },
   { name: 'Projects', href: '/projects' },
   { name: 'Status', href: 'https://status.ahervias.dev' },
 ]
