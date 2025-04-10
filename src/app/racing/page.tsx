@@ -1,18 +1,23 @@
 import Header from '../ui/header';
 import Footer from '../ui/footer';
+import Image from 'next/image'
 
 const experience = [
   {
     name: 'Autocross',
     years: '2025 - Present',
     description:
-      'Currently participating in regional autocross events with SCCA and PCA in a 2022 (ND2) Mazda MX-5 Miata.',
+      'Currently racing in regional autocross events with SCCA and PCA in a 2022 (ND2) Mazda MX-5 Miata.',
+    image: '/images/autocross.jpg',
+    imageAlt: 'Photo Credit: Chris McCain',
   },
   {
     name: 'Karting',
     years: '2013 - 2016',
     description:
       'Raced in club and regional level events in TaG Junior and TaG Senior classes. 2016 OVRP Club Series Champion in TaG Senior class.',
+    image: '/images/karting.jpg',
+    imageAlt: 'Gearup Challenge The F Series at PIRC',
   },
 ]
 
@@ -64,7 +69,7 @@ const results = [
   },
 ]
 
-export default function Resume() {
+export default function Racing() {
   return (
     <div className="bg-white min-h-screen dark:bg-slate-900 flex flex-col">
       <Header />
@@ -85,6 +90,17 @@ export default function Resume() {
                       </div>
                     </dt>
                     <dd className="mt-2 text-base leading-7 text-gray-700 dark:text-gray-300">{feature.description}</dd>
+                    {feature.image && (
+                        <div className="mt-4 relative w-full aspect-[16/9]">
+                        <Image
+                          src={feature.image}
+                          alt={feature.imageAlt || ''}
+                          fill
+                          className="object-cover rounded-lg"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
+                        </div>
+                    )}
                   </div>
                 ))}
               </dl>
