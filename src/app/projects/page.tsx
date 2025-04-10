@@ -44,10 +44,10 @@ export default function Projects() {
               </div>
             </div>
             <Image
-              src="/code.jpg"
+              src="/images/code.jpg"
               width={2048}
               height={1365}
-              alt="Product screenshot"
+              alt="Image of an IDE with code"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0 dark:ring-gray-600/10"
             />
           </div>
