@@ -65,6 +65,14 @@ const results = [
         position: '1st',
         videoUrl: 'https://www.youtube.com/watch?v=R0wc0wEF9xQ'
       },
+      {
+        eventName: 'Lone Star Region PCA Autocross #4',
+        date: '4/20/2025',
+        class: 'X4',
+        car: '2022 Mazda MX-5 Miata',
+        position: '2nd',
+        videoUrl: 'https://www.youtube.com/watch?v=6uG11P8Ih-A'
+      },
     ]
   },
 ]
