@@ -113,6 +113,14 @@ const results = [
         position: '1st',
         videoUrl: 'https://www.youtube.com/watch?v=cL4_-b9IQK8'
       },
+      {
+        eventName: 'HouSCCA Autocross #9',
+        date: '10/05/2025',
+        class: 'AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '1st',
+        videoUrl: 'https://www.youtube.com/watch?v=_PHuAeQ6AcI'
+      },
     ]
   },
 ]
