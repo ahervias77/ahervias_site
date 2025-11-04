@@ -121,6 +121,30 @@ const results = [
         position: '1st',
         videoUrl: 'https://www.youtube.com/watch?v=_PHuAeQ6AcI'
       },
+      {
+        eventName: 'Lone Star Region PCA Autocross #5',
+        date: '10/19/2025',
+        class: 'X4',
+        car: '2022 Mazda MX-5 Miata',
+        position: '1st',
+        videoUrl: 'https://www.youtube.com/watch?v=YGZ4dJIRcnw'
+      },
+      {
+        eventName: 'HouSCCA Autocross #10',
+        date: '11/01/2025',
+        class: 'AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '1st',
+        videoUrl: 'https://www.youtube.com/watch?v=bR9joiUcp2Y'
+      },
+      {
+        eventName: 'HouSCCA Autocross #11',
+        date: '11/02/2025',
+        class: 'AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '1st',
+        videoUrl: 'https://www.youtube.com/watch?v=XFW8WcZ4y0Q'
+      },
     ]
   },
 ]
