@@ -7,7 +7,7 @@ const experience = [
     name: 'Autocross',
     years: '2025 - Present',
     description:
-      'Currently racing in regional autocross events with SCCA and PCA in a 2022 (ND2) Mazda MX-5 Miata.',
+      'Racing in regional autocross events with SCCA and PCA in a 2022 (ND2) Mazda MX-5 Miata.\n- 2025 HouSCCA Autocross AST Champion\n- 2025 Lone Star Region PCA Autocross X4 Champion',
     image: '/images/autocross.jpg',
     imageAlt: 'Photo Credit: Chris McCain',
   },
@@ -15,7 +15,7 @@ const experience = [
     name: 'Karting',
     years: '2013 - 2016',
     description:
-      'Raced in club and regional level events in TaG Junior and TaG Senior classes. 2016 OVRP Club Series Champion in TaG Senior class.',
+      'Raced in club and regional level events in TaG Junior and TaG Senior classes.\n- 2016 OVRP Club Series TaG Senior Champion',
     image: '/images/karting.jpg',
     imageAlt: 'Gearup Challenge The F Series at PIRC',
   },
@@ -145,6 +145,22 @@ const results = [
         position: '1st',
         videoUrl: 'https://www.youtube.com/watch?v=XFW8WcZ4y0Q'
       },
+      {
+        eventName: 'Lone Star Region PCA Autocross #6',
+        date: '11/16/2025',
+        class: 'X4',
+        car: '2022 Mazda MX-5 Miata',
+        position: '1st',
+        videoUrl: 'https://www.youtube.com/watch?v=pNHZQ_xVSZA'
+      },
+      {
+        eventName: 'HouSCCA Autocross #12',
+        date: '12/07/2025',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '12th',
+        videoUrl: 'https://www.youtube.com/watch?v=rwUIlcvHvOM'
+      },
     ]
   },
 ]
@@ -169,7 +185,11 @@ export default function Racing() {
                         <h2>{feature.years}</h2>
                       </div>
                     </dt>
-                    <dd className="mt-2 text-base leading-7 text-gray-700 dark:text-gray-300">{feature.description}</dd>
+                    <dd className="mt-2 text-base leading-7 text-gray-700 dark:text-gray-300">
+                      {feature.description.split('\n').map((line, idx) => (
+                        <p key={idx}>{line}</p>
+                      ))}
+                    </dd>
                     {feature.image && (
                         <div className="mt-4 relative w-full aspect-[16/9]">
                         <Image
