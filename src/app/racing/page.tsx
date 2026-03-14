@@ -7,7 +7,7 @@ const experience = [
     name: 'Autocross',
     years: '2025 - Present',
     description:
-      'Racing in regional autocross events with SCCA and PCA in a 2022 (ND2) Mazda MX-5 Miata.\n- 2025 HouSCCA Autocross AST Champion\n- 2025 Lone Star Region PCA Autocross X4 Champion',
+      'Racing in regional autocross events with SCCA and PCA in a 2022 (ND2) Mazda MX-5 Miata.\n- 2025 HouSCCA Solo Rookie Driver of the Year\n- 2025 HouSCCA Autocross AST Champion\n- 2025 Lone Star Region PCA Autocross X4 Champion',
     image: '/images/autocross.jpg',
     imageAlt: 'Photo Credit: Chris McCain',
   },
@@ -160,6 +160,27 @@ const results = [
         car: '2022 Mazda MX-5 Miata',
         position: '12th',
         videoUrl: 'https://www.youtube.com/watch?v=rwUIlcvHvOM'
+      },
+    ]
+  },
+  {
+    name: 'Autocross - 2026',
+    events: [
+      {
+        eventName: 'Spokes/SASCA Solo-Cross #2',
+        date: '2/28/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '9th',
+        videoUrl: 'https://www.youtube.com/watch?v=DO_EQP-6YpI'
+      },
+      {
+        eventName: 'SCCA Beeville ProSolo',
+        date: '3/7/2026',
+        class: 'AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '4th',
+        videoUrl: 'https://www.youtube.com/watch?v=X0m08VUapP4'
       },
     ]
   },
