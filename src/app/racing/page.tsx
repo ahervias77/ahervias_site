@@ -182,6 +182,22 @@ const results = [
         position: '4th',
         videoUrl: 'https://www.youtube.com/watch?v=X0m08VUapP4'
       },
+      {
+        eventName: 'Spokes/SASCA Autocross #3',
+        date: '3/28/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '6th',
+        videoUrl: 'https://www.youtube.com/watch?v=PCmYoR_SuNE'
+      },
+      {
+        eventName: 'Texas Region SCCA Autocross #2',
+        date: '3/29/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '1st',
+        videoUrl: 'https://www.youtube.com/watch?v=lmsXby6yaAo'
+      },
     ]
   },
 ]
