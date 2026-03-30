@@ -23,6 +23,43 @@ const experience = [
 
 const results = [
   {
+    name: 'Autocross - 2026',
+    events: [
+      {
+        eventName: 'Spokes/SASCA Solo-Cross #2',
+        date: '2/28/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '9th',
+        videoUrl: 'https://www.youtube.com/watch?v=DO_EQP-6YpI'
+      },
+      {
+        eventName: 'SCCA Beeville ProSolo',
+        date: '3/7/2026',
+        class: 'AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '4th',
+        videoUrl: 'https://www.youtube.com/watch?v=X0m08VUapP4'
+      },
+      {
+        eventName: 'Spokes/SASCA Autocross #3',
+        date: '3/28/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '6th',
+        videoUrl: 'https://www.youtube.com/watch?v=PCmYoR_SuNE'
+      },
+      {
+        eventName: 'Texas Region SCCA Autocross #2',
+        date: '3/29/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '1st',
+        videoUrl: 'https://www.youtube.com/watch?v=lmsXby6yaAo'
+      },
+    ]
+  },
+  {
     name: 'Autocross - 2025',
     events: [
       {
@@ -160,27 +197,6 @@ const results = [
         car: '2022 Mazda MX-5 Miata',
         position: '12th',
         videoUrl: 'https://www.youtube.com/watch?v=rwUIlcvHvOM'
-      },
-    ]
-  },
-  {
-    name: 'Autocross - 2026',
-    events: [
-      {
-        eventName: 'Spokes/SASCA Solo-Cross #2',
-        date: '2/28/2026',
-        class: 'X AST',
-        car: '2022 Mazda MX-5 Miata',
-        position: '9th',
-        videoUrl: 'https://www.youtube.com/watch?v=DO_EQP-6YpI'
-      },
-      {
-        eventName: 'SCCA Beeville ProSolo',
-        date: '3/7/2026',
-        class: 'AST',
-        car: '2022 Mazda MX-5 Miata',
-        position: '4th',
-        videoUrl: 'https://www.youtube.com/watch?v=X0m08VUapP4'
       },
     ]
   },
