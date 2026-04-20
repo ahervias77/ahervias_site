@@ -57,6 +57,14 @@ const results = [
         position: '1st',
         videoUrl: 'https://www.youtube.com/watch?v=lmsXby6yaAo'
       },
+      {
+        eventName: 'Texas Region SCCA Autocross #3',
+        date: '4/19/2026',
+        class: 'X SS',
+        car: '2023 Porsche 718 Cayman GT4 RS',
+        position: '1st',
+        videoUrl: 'https://www.youtube.com/watch?v=LNKK5PG1l_0'
+      },
     ]
   },
   {
