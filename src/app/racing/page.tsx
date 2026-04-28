@@ -65,6 +65,14 @@ const results = [
         position: '1st',
         videoUrl: 'https://www.youtube.com/watch?v=LNKK5PG1l_0'
       },
+      {
+        eventName: 'SCCA Beeville National Tour',
+        date: '4/26/2026',
+        class: 'AST',
+        car: '2019 Mazda MX-5 Miata',
+        position: '3rd',
+        videoUrl: 'https://www.youtube.com/playlist?list=PLx_4D7Pd8XLVtVBzb4VzVeRgm2t8bK1PY'
+      },
     ]
   },
   {
