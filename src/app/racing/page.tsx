@@ -97,6 +97,14 @@ const results = [
         position: '16th',
         videoUrl: 'https://www.youtube.com/watch?v=uJy2uWNZBtQ'
       },
+      {
+        eventName: 'Texas Region SCCA Autocross #6',
+        date: '7/12/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '4th',
+        videoUrl: 'https://www.youtube.com/watch?v=xnpzyIJq_PQ'
+      },
     ]
   },
   {
