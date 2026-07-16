@@ -73,6 +73,38 @@ const results = [
         position: '3rd',
         videoUrl: 'https://www.youtube.com/playlist?list=PLx_4D7Pd8XLVtVBzb4VzVeRgm2t8bK1PY'
       },
+      {
+        eventName: 'Spokes/SASCA Autocross #4',
+        date: '5/9/2026',
+        class: 'X AST',
+        car: '2019 Mazda MX-5 Miata',
+        position: '7th',
+        videoUrl: 'https://www.youtube.com/watch?v=1VDeIuqh_kc'
+      },
+      {
+        eventName: 'Texas Region SCCA Autocross #5',
+        date: '6/6/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '10th',
+        videoUrl: 'https://www.youtube.com/watch?v=PD_Q3f7cwTM'
+      },
+      {
+        eventName: 'Equipe Rapide Challenge Cup #4',
+        date: '6/7/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '16th',
+        videoUrl: 'https://www.youtube.com/watch?v=uJy2uWNZBtQ'
+      },
+      {
+        eventName: 'Texas Region SCCA Autocross #6',
+        date: '7/12/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '4th',
+        videoUrl: 'https://www.youtube.com/watch?v=xnpzyIJq_PQ'
+      },
     ]
   },
   {
