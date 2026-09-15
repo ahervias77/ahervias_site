@@ -7,9 +7,9 @@ const experience = [
     name: 'Autocross',
     years: '2025 - Present',
     description:
-      'Racing in regional autocross events with SCCA and PCA in a 2022 (ND2) Mazda MX-5 Miata.\n- 2025 HouSCCA Solo Rookie Driver of the Year\n- 2025 HouSCCA Autocross AST Champion\n- 2025 Lone Star Region PCA Autocross X4 Champion',
+      'Racing in regional and national autocross events with SCCA and PCA in a 2022 (ND2) Mazda MX-5 Miata.\n- 2025 HouSCCA Solo Rookie Driver of the Year\n- 2025 HouSCCA Autocross AST Champion\n- 2025 Lone Star Region PCA Autocross X4 Champion',
     image: '/images/autocross.jpg',
-    imageAlt: 'Photo Credit: Chris McCain',
+    imageAlt: '2026 SCCA Solo National Championships',
   },
   {
     name: 'Karting',
@@ -104,6 +104,38 @@ const results = [
         car: '2022 Mazda MX-5 Miata',
         position: '4th',
         videoUrl: 'https://www.youtube.com/watch?v=xnpzyIJq_PQ'
+      },
+      {
+        eventName: 'Spokes Autocross #7',
+        date: '8/1/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '7th',
+        videoUrl: 'https://www.youtube.com/watch?v=YMAUrsXroHE'
+      },
+      {
+        eventName: 'Texas Region SCCA Autocross #7',
+        date: '8/2/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '2nd',
+        videoUrl: 'https://www.youtube.com/watch?v=VNIt-FUBgpQ'
+      },
+      {
+        eventName: 'SCCA Lincoln Air Park ProSolo',
+        date: '8/9/2026',
+        class: 'AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '3rd',
+        videoUrl: 'https://www.youtube.com/watch?v=4dTaFpt6Zxk'
+      },
+      {
+        eventName: 'SCCA Solo National Championships',
+        date: '9/11/2026',
+        class: 'AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '10th',
+        videoUrl: 'https://www.youtube.com/playlist?list=PLPc2ZW198sgE'
       },
     ]
   },
