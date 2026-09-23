@@ -45,7 +45,7 @@ export default function Racing() {
                 ))}
               </dl>
             </div>
-            <p className="mt-16 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-100">
+            <p id="results" className="mt-16 scroll-mt-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-100">
               Results
             </p>
             <div className="mx-auto mt-12 max-w-2xl lg:max-w-4xl">
