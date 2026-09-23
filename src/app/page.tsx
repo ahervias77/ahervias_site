@@ -65,7 +65,7 @@ export default function HomePage() {
                 Latest results
               </h3>
               <a
-                href="/racing"
+                href="/racing#results"
                 className="text-sm font-semibold text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-400"
               >
                 All results <span aria-hidden="true">&rarr;</span>
