@@ -161,6 +161,7 @@ export const results: Season[] = [
         class: 'X AST',
         car: '2022 Mazda MX-5 Miata',
         position: '8th',
+        videoUrl: 'https://www.youtube.com/watch?v=XEaZyDWQO6U'
       },
     ]
   },
