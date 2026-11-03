@@ -155,6 +155,13 @@ export const results: Season[] = [
         position: '8th',
         videoUrl: 'https://www.youtube.com/watch?v=HJNSOn8ISt4'
       },
+      {
+        eventName: 'Spokes Autocross #9',
+        date: '10/31/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '8th',
+      },
     ]
   },
   {
