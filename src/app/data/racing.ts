@@ -163,6 +163,22 @@ export const results: Season[] = [
         position: '8th',
         videoUrl: 'https://www.youtube.com/watch?v=XEaZyDWQO6U'
       },
+      {
+        eventName: 'TX SW Divisional',
+        date: '11/14/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '8th',
+        videoUrl: 'https://www.youtube.com/watch?v=Q3aUuErtiHc'
+      },
+      {
+        eventName: 'HouSCCA Autocross #2',
+        date: '11/15/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '22nd',
+        videoUrl: 'https://www.youtube.com/watch?v=mjfVsZ7n7K0'
+      },
     ]
   },
   {
