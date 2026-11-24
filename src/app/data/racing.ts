@@ -179,6 +179,13 @@ export const results: Season[] = [
         position: '22nd',
         videoUrl: 'https://www.youtube.com/watch?v=mjfVsZ7n7K0'
       },
+      {
+        eventName: 'Texas Region SCCA Autocross #9',
+        date: '11/22/2026',
+        class: 'X AST',
+        car: '2022 Mazda MX-5 Miata',
+        position: '3rd'
+      },
     ]
   },
   {
